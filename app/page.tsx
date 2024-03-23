@@ -1,3 +1,12 @@
+'use client';
+
+import Navigation from '../components/navigation';
+
 export default function Home() {
-  return <h1>Hello NextJS14</h1>;
+  return (
+    <div>
+      <Navigation />
+      <h1>Hello!</h1>
+    </div>
+  );
 }
